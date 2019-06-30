@@ -1,6 +1,6 @@
 # QrAngular
 
-[demo](https://avergnaud.github.io/qr-angular/index.html)
+[demo](https://avergnaud.github.io/qr-angular/)
 
 compare this to [other qr-* projects](https://github.com/avergnaud?utf8=%E2%9C%93&tab=repositories&q=qr)
 
