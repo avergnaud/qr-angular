@@ -1,0 +1,20 @@
+<div id="main-qr">
+    <h1>jsQR Demo</h1>
+    <a id="githubLink" href="https://github.com/cozmo/jsQR"
+      >See jsQR on Github</a
+    >
+    <p>Angular QR code decoding</p>
+    <div id="loading-message" *ngIf="!ready">
+      {{ loadingMessage }}
+    </div>
+    <canvas #canvasElement id="canvas" [hidden]="!ready"></canvas>
+    <div id="output" [hidden]="!ready">
+      <div id="outputMessage" [hidden]="codeFound">No QR code detected.</div>
+      <div [hidden]="!codeFound">
+        <b>Data:</b> <span id="outputData">{{ qrCodeValue }}</span>
+      </div>
+    </div>
+    <!-- playsinline required to tell iOS safari we don't want fullscreen -->
+    <video #videoElement playsinline="true"></video>
+  </div>
+  
