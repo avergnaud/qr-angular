@@ -1,6 +1,16 @@
 # QrAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+[demo](https://avergnaud.github.io/qr-angular/index.html)
+
+compare this to [other qr-* projects](https://github.com/avergnaud?utf8=%E2%9C%93&tab=repositories&q=qr)
+
+angular qr reader / [jsqr](https://github.com/cozmo/jsQR)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.0-rc.1.
+
+## install
+
+`npm install`
 
 ## Development server
 
@@ -12,16 +22,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build --base-href qr-angular` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Deploy
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`qr-angular>sudo ngh -d dist/qr-angular`
